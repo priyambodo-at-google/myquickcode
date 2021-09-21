@@ -5,8 +5,8 @@ public class cariDiskon
     public static void main (String []args)
     {
         int vPersen = 0;
-        double vHargaBayar = 0;
-        double vHargaDiskon = 0;
+        double vFinal = 0;
+        double vDiskon = 0;
 
         Scanner vInput = new Scanner(System.in);
 
@@ -42,8 +42,8 @@ public class cariDiskon
             vPersen = 25;
         }
         
-        double vDiskon = (vTotal * vPersen / 100) ;
-        double vFinal = (vTotal - vDiskon);
+        vDiskon = (vTotal * vPersen / 100) ;
+        vFinal = (vTotal - vDiskon);
 
         System.out.print("Total Pembelian = " + vTotal + "\n");
         System.out.print("Jumlah Diskon = " + vDiskon + "\n");
