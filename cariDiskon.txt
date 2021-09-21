@@ -1,0 +1,7 @@
+Berapa jumlah barang yang dibeli? 1
+Berapa harga satuan dari barang tersebut? 250000
+Total Pembelian = 250000.0
+Jumlah Diskon = 25000.0
+Harga Final setelah dikurang diskon = 225000.0
+Masukkan rupiah pembayaran anda = 250000
+Kembalian anda adalah = 25000.0
