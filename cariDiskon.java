@@ -7,6 +7,8 @@ public class cariDiskon
         int vPersen = 0;
         double vFinal = 0;
         double vDiskon = 0;
+        double vBayar = 0;
+        double vKembali = 0;
 
         Scanner vInput = new Scanner(System.in);
 
@@ -50,15 +52,16 @@ public class cariDiskon
         System.out.print("Harga Final setelah dikurang diskon = " + vFinal + "\n");
 
         System.out.print("Masukkan rupiah pembayaran anda = ");
-        double vBayar = vInput.nextDouble();
-
+        vBayar = vInput.nextDouble();
+        
         if (vBayar == vFinal)
         {
             System.out.print("Uang Pas \n");
         }
             else 
             {
-                System.out.print("Kembalian anda adalah = " + (vBayar-vFinal) + "\n"); 
+                vKembali = vBayar - vFinal;
+                System.out.print("Kembalian anda adalah = " + vKembali + "\n"); 
             };
     }
 }
